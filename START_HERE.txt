@@ -1,0 +1,16 @@
+MOTIONFORGE STUDIO 2.1 — GITHUB SOURCE EDITION
+
+Install Node.js 22.12 or newer.
+Open a terminal in this folder and run:
+
+npm ci
+npm run build
+npm run serve
+
+Open http://localhost:4173.
+First setup requires internet to download dependencies including FFmpeg.wasm.
+After building, use start_windows.bat or start_linux_mac.sh for local offline use.
+Optional native FFmpeg enables faster disk-backed MP4 encoding.
+
+See README.md for setup and usage, KNOWN_ISSUES.md for current limitations,
+and VERIFICATION.md for historical test coverage.

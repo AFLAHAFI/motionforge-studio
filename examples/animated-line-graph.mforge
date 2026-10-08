@@ -1,0 +1,16 @@
+{
+  "format": "motionforge-project",
+  "version": 2,
+  "sourceType": "svg",
+  "sourceName": "animated-line-graph.svg",
+  "sourceCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1920\" height=\"1080\" viewBox=\"0 0 1920 1080\"><rect width=\"1920\" height=\"1080\" fill=\"#101722\"/><text x=\"150\" y=\"145\" font-family=\"Arial\" font-size=\"28\" letter-spacing=\"5\" fill=\"#8fa3bb\">MOTIONFORGE · ANIMATED DATA</text><text x=\"150\" y=\"245\" font-family=\"Arial\" font-size=\"72\" font-weight=\"700\" fill=\"#f2f6fc\">A story of steady growth</text><text x=\"150\" y=\"310\" font-family=\"Arial\" font-size=\"28\" fill=\"#8fa3bb\">Example line graph · 6 data points</text><path d=\"M180 380V860H1750\" fill=\"none\" stroke=\"#334256\" stroke-width=\"3\"/><path d=\"M220 800 L500 690 L780 735 L1060 510 L1340 570 L1640 390\" fill=\"none\" stroke=\"#68d9cf\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1000\" stroke-dasharray=\"1000\" stroke-dashoffset=\"1000\"><animate attributeName=\"stroke-dashoffset\" from=\"1000\" to=\"0\" dur=\"3s\" fill=\"freeze\"/></path><circle cx=\"220\" cy=\"800\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"0s\" fill=\"freeze\"/></circle><text x=\"220\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">Jan</text><circle cx=\"500\" cy=\"690\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"0.6s\" fill=\"freeze\"/></circle><text x=\"500\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">Feb</text><circle cx=\"780\" cy=\"735\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"1.2s\" fill=\"freeze\"/></circle><text x=\"780\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">Mar</text><circle cx=\"1060\" cy=\"510\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"1.7999999999999998s\" fill=\"freeze\"/></circle><text x=\"1060\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">Apr</text><circle cx=\"1340\" cy=\"570\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"2.4s\" fill=\"freeze\"/></circle><text x=\"1340\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">May</text><circle cx=\"1640\" cy=\"390\" r=\"12\" fill=\"#f2f6fc\" opacity=\"0\"><set attributeName=\"opacity\" to=\"1\" begin=\"3s\" fill=\"freeze\"/></circle><text x=\"1640\" y=\"935\" font-family=\"Arial\" font-size=\"30\" text-anchor=\"middle\" fill=\"#8fa3bb\">Jun</text></svg>",
+  "duration": 5,
+  "rangeStart": 0,
+  "rangeEnd": 5,
+  "fps": 30,
+  "outWidth": 1920,
+  "outHeight": 1080,
+  "background": "#101722",
+  "quality": "18",
+  "renderMode": "frame"
+}

@@ -1,0 +1,16 @@
+{
+  "format": "motionforge-project",
+  "version": 2,
+  "sourceType": "svg",
+  "sourceName": "animated-donut-chart.svg",
+  "sourceCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1920\" height=\"1080\" viewBox=\"0 0 1920 1080\"><rect width=\"1920\" height=\"1080\" fill=\"#101722\"/><text x=\"150\" y=\"145\" font-family=\"Arial\" font-size=\"28\" letter-spacing=\"5\" fill=\"#8fa3bb\">MOTIONFORGE · ANIMATED DATA</text><text x=\"150\" y=\"245\" font-family=\"Arial\" font-size=\"72\" font-weight=\"700\" fill=\"#f2f6fc\">Project completion</text><circle cx=\"620\" cy=\"635\" r=\"225\" fill=\"none\" stroke=\"#263449\" stroke-width=\"70\"/><circle cx=\"620\" cy=\"635\" r=\"225\" fill=\"none\" stroke=\"#68d9cf\" stroke-width=\"70\" stroke-linecap=\"round\" pathLength=\"100\" stroke-dasharray=\"78 100\" stroke-dashoffset=\"78\" transform=\"rotate(-90 620 635)\"><animate attributeName=\"stroke-dashoffset\" from=\"78\" to=\"0\" dur=\"3s\" fill=\"freeze\" calcMode=\"spline\" keyTimes=\"0;1\" keySplines=\".2 .7 .2 1\"/></circle><text x=\"620\" y=\"655\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"110\" font-weight=\"700\" fill=\"#f2f6fc\" opacity=\"0\">78%<animate attributeName=\"opacity\" from=\"0\" to=\"1\" begin=\"2s\" dur=\"1s\" fill=\"freeze\"/></text><text x=\"1080\" y=\"585\" font-family=\"Arial\" font-size=\"45\" fill=\"#f2f6fc\">78% completed</text><text x=\"1080\" y=\"660\" font-family=\"Arial\" font-size=\"32\" fill=\"#8fa3bb\">22% remaining</text><text x=\"1080\" y=\"765\" font-family=\"Arial\" font-size=\"26\" fill=\"#8fa3bb\">Example data · SVG donut chart</text></svg>",
+  "duration": 5,
+  "rangeStart": 0,
+  "rangeEnd": 5,
+  "fps": 30,
+  "outWidth": 1920,
+  "outHeight": 1080,
+  "background": "#101722",
+  "quality": "18",
+  "renderMode": "frame"
+}

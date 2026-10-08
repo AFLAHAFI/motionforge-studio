@@ -1,0 +1,12 @@
+node_modules/
+public/ffmpeg/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+bin/ffmpeg
+bin/ffmpeg.exe
+dist/

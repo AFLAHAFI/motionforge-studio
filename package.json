@@ -1,0 +1,25 @@
+{
+  "name": "motionforge-offline",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/copy-ffmpeg-core.mjs",
+    "dev": "vite",
+    "build": "npm run setup && vite build",
+    "serve": "node server.mjs",
+    "setup:native": "node scripts/setup-native.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "0.12.10",
+    "@ffmpeg/ffmpeg": "0.12.15",
+    "@ffmpeg/util": "0.12.2",
+    "html-to-image": "1.11.13"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format": "motionforge-project",
+  "version": 2,
+  "sourceType": "html",
+  "sourceName": "seekable-canvas-graph.html",
+  "sourceCode": "<!doctype html><html><head><meta charset=\"utf-8\"><style>html,body{margin:0;width:100%;height:100%;background:#101722;overflow:hidden}canvas{display:block;width:100%;height:100%}</style></head><body><canvas id=\"chart\" data-motionforge-capture=\"full\"></canvas><script>const canvas=document.getElementById('chart'),ctx=canvas.getContext('2d');const values=[42,58,49,74,68,92];window.motionforgeSeek=function(seconds){canvas.width=innerWidth;canvas.height=innerHeight;const w=canvas.width,h=canvas.height,p=Math.min(Math.max(seconds/3,0),1),ease=1-Math.pow(1-p,3);ctx.fillStyle='#101722';ctx.fillRect(0,0,w,h);ctx.fillStyle='#f2f6fc';ctx.font='bold '+w*.045+'px Arial';ctx.fillText('Canvas graph',w*.08,h*.17);ctx.fillStyle='#8fa3bb';ctx.font=w*.018+'px Arial';ctx.fillText('Deterministic HTML/JS example · '+seconds.toFixed(2)+' seconds',w*.08,h*.25);values.forEach((v,i)=>{const x=w*(.12+i*.13),height=h*.46*(v/100)*ease;ctx.fillStyle=['#68d9cf','#70ccec','#8899ef','#a18ade','#d19ddf','#e9b976'][i];ctx.fillRect(x,h*.8-height,w*.075,height);ctx.fillStyle='#f2f6fc';ctx.fillText(String(Math.round(v*ease)),x,h*.8-height-h*.025);});};window.motionforgeSeek(0);</script></body></html>",
+  "duration": 5,
+  "rangeStart": 0,
+  "rangeEnd": 5,
+  "fps": 30,
+  "outWidth": 1920,
+  "outHeight": 1080,
+  "background": "#101722",
+  "quality": "18",
+  "renderMode": "frame"
+}
